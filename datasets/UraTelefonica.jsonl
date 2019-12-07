@@ -16,9 +16,7 @@
     "duracao_total_da_chamada": "00:01:53",
     "classificacao": "Dúvida",
     "sub_classificacao": "Embarque|Desembarque fora rodoviária"
-  }
-
-
+},
 {
     "data": "04/11/2019",
     "Semana": "Monday",
@@ -37,7 +35,7 @@
     "duracao_total_da_chamada": "00:02:29",
     "classificacao": "Cancelamento",
     "sub_classificacao": "Alteração dia"
-  }
+},
 {
     "data": "18/10/2019",
     "Semana": "Friday",
@@ -56,7 +54,7 @@
     "duracao_total_da_chamada": "00:05:07",
     "classificacao": "Dúvida",
     "sub_classificacao": "Remarcação poltrona"
-  }
+},
 {
     "data": "21/08/2019",
     "Semana": "Wednesday",
@@ -75,7 +73,7 @@
     "duracao_total_da_chamada": "00:04:33",
     "classificacao": "Estorno",
     "sub_classificacao": "Estorno do valor da Passagem"
-  }
+},
 {
     "data": "20/08/2019",
     "Semana": "Tuesday",
@@ -94,4 +92,4 @@
     "duracao_total_da_chamada": "00:03:23",
     "classificacao": "Dúvida",
     "sub_classificacao": "Embarque|Desembarque fora rodoviária"
-  }
+}
