@@ -26,7 +26,7 @@
     "Agente": "Antônia",
     "Status": "Atendida",
     "Visitor_Email": "lreis@email.com",
-    "Feedback_Response_Additional": "bom atendimento"
+    "Feedback_Response_Additional": "bom atendimento",
     "Feedback_Average": 7,
     "Atendido": "Sim"
 },
@@ -37,7 +37,7 @@
     "Agente": "Maria",
     "Status": "Atendida",
     "Visitor_Email": "joanab@email.com",
-    "Feedback_Response_Additional": "Excelente atendimento"
+    "Feedback_Response_Additional": "Excelente atendimento",
     "Feedback_Average": 9,
     "Atendido": "Sim"
 },
@@ -48,7 +48,7 @@
     "Agente": "Maria",
     "Status": "Atendida",
     "Visitor_Email": "rosana.farias@email.com",
-    "Feedback_Response_Additional": "atendimento demorado"
+    "Feedback_Response_Additional": "atendimento demorado",
     "Feedback_Average": 4,
     "Atendido": "Sim"
 }]
