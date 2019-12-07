@@ -18,8 +18,8 @@ try:
 
     if len(dicionario) > 0:
         # abre conexao com o banco
-        connection = mysql.connector.connect(host='localhost', port='3306', database='clickbusbd', user='dscourse',
-                                             password='D@t@Sc!enceC0urs3')
+        connection = mysql.connector.connect(host='localhost', port='3306', database='[database]', user='[user]',
+                                             password='[pwd]')
         # percorre registros
         for item in dicionario:
             # data em formato string
