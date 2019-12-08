@@ -2,15 +2,14 @@
 import mysql.connector
 from mysql.connector import Error
 import csv
-import codecs
 import dateutil.parser
 import requests
 
 dias_semana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado']
 
 try:
-    # recupera o dataset do Whatsapp
-    url = 'http://raw.githubusercontent.com/camilabianchi/graces_desafio/master/datasets/Whatsapp.csv'
+    # recupera o dataset do E-mail
+    url = 'http://raw.githubusercontent.com/camilabianchi/graces_desafio/master/datasets/email.csv'
 
     with requests.Session() as s:
         download = s.get(url)
@@ -25,19 +24,13 @@ try:
             cont = 0
             for item in csv_file:
                 if cont > 0:
-                    # data em formato string
-                    data_inicio_str = item[0].replace("/", "-").strip()
-                    data_fim_str = item[1].replace("/", "-").strip()
-
-                    data_inicio = dateutil.parser.parse(data_inicio_str)
-                    data_termino = dateutil.parser.parse(data_fim_str)
-
-                    # valores do insert
-                    email = item[6]
-                    nome = item[6]
+                    email = item[7]
+                    nome = item[7]
+                    data_inicio = dateutil.parser.parse(item[3])
+                    data_termino = dateutil.parser.parse(item[4])
                     agente = "Não Aplicável"
-                    status = "Finalizado" if item[5] == "Sim" else "Não finalizado"
-                    origem = 'Whatsapp'
+                    status = "Não Aplicável"
+                    origem = "E-mail"
                     semana = 0 if data_inicio.weekday() == 6 else data_inicio.weekday() + 1
                     semana_nome = dias_semana[semana]
 

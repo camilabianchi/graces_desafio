@@ -1,8 +1,6 @@
+# coding=utf-8
 import mysql.connector
 from mysql.connector import Error
-import csv
-import codecs
-import urllib.request
 import requests
 import json
 import datetime
@@ -12,15 +10,16 @@ dias_semana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quin
 
 try:
     # recupera dataset da URA
-    url_json = "https://raw.githubusercontent.com/camilabianchi/graces_desafio/master/datasets/UraTelefonica.jsonl"
+    url_json = "http://raw.githubusercontent.com/camilabianchi/graces_desafio/master/datasets/UraTelefonica.jsonl"
     req = requests.get(url_json)
-    dicionario = json.loads(req.text)
+    dicionario = json.loads(req.text, encoding='utf-8')
 
     if len(dicionario) > 0:
 
         # abre conexao com o banco
-        connection = mysql.connector.connect(host='localhost', port='3306', database='[database]', user='[user]',
+        connection = mysql.connector.connect(host='localhost', port='3306', database='[db]', user='[user]',
                                              password='[pwd]')
+
         # percorre registros
         for item in dicionario:
             # data em formato string

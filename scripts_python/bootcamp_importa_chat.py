@@ -1,24 +1,21 @@
+# coding=utf-8
 import mysql.connector
 from mysql.connector import Error
-import csv
-import codecs
-import urllib.request
 import requests
 import json
 import datetime
-import time
 
 dias_semana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado']
 
 try:
     # recupera dataset do chat
-    url_json = "https://raw.githubusercontent.com/camilabianchi/graces_desafio/master/datasets/chatOnline.jsonl"
+    url_json = "http://raw.githubusercontent.com/camilabianchi/graces_desafio/master/datasets/chatOnline.jsonl"
     req = requests.get(url_json)
     dicionario = json.loads(req.text)
 
     if len(dicionario) > 0:
         # abre conexao com o banco
-        connection = mysql.connector.connect(host='localhost', port='3306', database='[database]', user='[user]',
+        connection = mysql.connector.connect(host='localhost', port='3306', database='[db]', user='[user]',
                                              password='[pwd]')
         # percorre registros
         for item in dicionario:
