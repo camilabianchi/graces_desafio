@@ -17,6 +17,6 @@ dag = DAG(
 
 t1 = BashOperator(
     task_id='import_whatsapp',
-    bash_command='python3 /mnt/c/dag/scripts/bootcamp_importa_whatsapp.py',
+    bash_command='python3 /mnt/c/dag/scripts/importa_whatsapp.py',
     dag=dag,
     depends_on_past=False)

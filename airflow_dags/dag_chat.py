@@ -17,6 +17,6 @@ dag = DAG(
 
 t1 = BashOperator(
     task_id='import_chat',
-    bash_command='python3 /mnt/c/dag/scripts/bootcamp_importa_chat.py',
+    bash_command='python3 /mnt/c/dag/scripts/importa_chat.py',
     dag=dag,
     depends_on_past=False)

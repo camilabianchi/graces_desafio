@@ -17,6 +17,6 @@ dag = DAG(
 
 t1 = BashOperator(
     task_id='import_email',
-    bash_command='python3 /mnt/c/dag/scripts/bootcamp_importa_email.py',
+    bash_command='python3 /mnt/c/dag/scripts/importa_email.py',
     dag=dag,
     depends_on_past=False)
