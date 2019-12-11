@@ -78,8 +78,14 @@ Quantitativo:
 
 ### Solução Proposta
 
-[EM ANDAMENTO]
- 
+Sobre performance, existem 3 grandes empresas que oferecem sistema robustos para lidar com uma grande quantidade de dados de várias formas, incluindo real time. São elas Amazon Web Service que é uma plataforma de computação na nuvem oferecida pela Amazon.com, Google Cloud Platform que é uma suíte de computação em nuvem oferecida pelo Google e a Microsoft Azure que é uma plataforma destinada à execução de aplicativos e serviços baseada nos conceitos de computação em nuvem.
+
+As 3 oferecem ótimas opções que ajudam a lidar com uma massa de dados grande sendo possível realizar análises e tirar insights relevantes para a área de negócios.
+
+Utilizando a plataforma do Azure, podemos representar a arquitetura de real time:
+
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/4_documentacao/azure.jpg" title="Img" alt="Img" style="max-width:80%;">
+
 
 ## Integrantes do grupo
 
