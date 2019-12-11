@@ -20,7 +20,7 @@ Como linguagem e ferramentas, optamos por utilizar:
 
 Modelagem dos dados:
 
-<img src="https://github.com/camilabianchi/graces_desafio/blob/master/1_modelagem/modelagem.jpg?raw=true" title="Img" alt="Img">
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/1_modelagem/modelagem.jpg?raw=true" title="Img" alt="Img" style="max-width:80%;">
 
 Como proposta de solução para esse desafio criamos um fluxo no airflow que processa os dados dos atendimentos e faz a ingestão no banco de dados criado em MySQL para armazenar todos os contatos do Customer Experience.
 
@@ -44,7 +44,7 @@ Criamos uma DAG no Airflow para cada dataset e com o modelo de Customer Experien
 ### Solução Proposta
 
 
-<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_1.JPG?raw=true" title="Img" alt="Img">
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_1.JPG?raw=true" title="Img" alt="Img" style="max-width:80%;">
 
 
 2. > Todas a interações de cada plataforma por cliente
@@ -54,12 +54,12 @@ Criamos uma DAG no Airflow para cada dataset e com o modelo de Customer Experien
 
 Qualitativo:
 
-<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_2_ql.JPG" title="Img" alt="Img">
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_2_ql.JPG" title="Img" alt="Img" style="max-width:80%;">
 
 
 Quantitativo:
 
-<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_2_qt.JPG" title="Img" alt="Img">
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_2_qt.JPG" title="Img" alt="Img" style="max-width:80%;">
 
 
 3. > Última interação e qual plataforma por cliente
@@ -68,7 +68,7 @@ Quantitativo:
 ### Solução Proposta
 
 
-<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_3.JPG" title="Img" alt="Img">
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_3.JPG" title="Img" alt="Img" style="max-width:80%;">
 
 
 
