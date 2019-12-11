@@ -11,19 +11,26 @@ Como linguagem e ferramentas, optamos por utilizar:
 
 ## Primeiro desafio
 
-Construa uma modelagem de dados para consulta, integrando todos datasets, visando a melhor forma de padronizá-los (pequena explicação). Crie um script de criação do schema e das tabelas que serão utilizadas para o contexto descrito anteriormente. Informando como e com quais tecnologias você efetuaria a integração desses dados.
+Construa uma modelagem de dados para consulta, integrando todos datasets, visando a melhor forma de padronizá-los. Crie um script de criação do schema e das tabelas que serão utilizadas para o contexto descrito anteriormente. Informando como e com quais tecnologias você efetuaria a integração desses dados.
 
 ### Solução Proposta
 
-Criamos uma DAG no Airflow de cada dataset e com o modelo de Customer Experience criado pelo Airflow conseguimos fazer a integração de todos e posteriormente os agendamentos de serviços necessários.
+Modelagem dos dados:
 
-## Segundo desafio
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/1_modelagem/modelagem.jpg?raw=true" title="Img" alt="Img">
 
 Como proposta de solução para esse desafio criamos um fluxo no airflow que processa os dados dos atendimentos e faz a ingestão no banco de dados criado em MySQL para armazenar todos os contatos do Customer Experience.
 
+## Segundo desafio
+
+Crie um script para efetuar extração, transformação e carregamento desses dados no banco de dados que você modelou acima (python)
+
 ### Solução Proposta
 
-Criamos uma DAG no Airflow de cada dataset e com o modelo de Customer Experience criado pelo Airflow conseguimos fazer a integração de todos e posteriormente os agendamentos de serviços necessários.
+Criamos uma DAG no Airflow para cada dataset e com o modelo de Customer Experience criado pelo Airflow conseguimos fazer a integração de todos e posteriormente os agendamentos de serviços necessários.
+
+* <a href="https://github.com/camilabianchi/graces_desafio/tree/master/2_importacao_python_airflow">Scripts de importação em python</a>
+* <a href="https://github.com/camilabianchi/graces_desafio/tree/master/2_importacao_python_airflow/airflow_dags">DAG's do Airflow utilizadas para o agendamento da execução das importações</a>
 
 ## Terceiro desafio
 
