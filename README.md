@@ -33,7 +33,7 @@ A partir da sua modelagem, construa três queries para responder:
 
 ### Solução Proposta
 
-<img src="" title="Img" alt="Img">
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_1.JPG?raw=true" title="Img" alt="Img">
 
 
 * Todas a interações de cada plataforma por cliente
