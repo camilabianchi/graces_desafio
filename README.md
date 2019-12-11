@@ -33,6 +33,7 @@ A partir da sua modelagem, construa três queries para responder:
 
 ### Solução Proposta
 
+
 <img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_1.JPG?raw=true" title="Img" alt="Img">
 
 
@@ -40,14 +41,25 @@ A partir da sua modelagem, construa três queries para responder:
 
 ### Solução Proposta
 
-<img src="" title="Img" alt="Img">
+
+Qualitativo:
+
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_2_ql.JPG" title="Img" alt="Img">
+
+
+Quantitativo:
+
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_2_qt.JPG" title="Img" alt="Img">
 
 
 * Última interação e qual plataforma por cliente
 
+
 ### Solução Proposta
 
-<img src="" title="Img" alt="Img">
+
+<img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_3.JPG" title="Img" alt="Img">
+
 
 
 ## Quarto desafio
