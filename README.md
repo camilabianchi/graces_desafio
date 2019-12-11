@@ -1,7 +1,7 @@
 # Bootcamp WomakersCode
-### Desafio Data Engineering - ClickBus
+### Desafio Data Engineer - ClickBus
 
-Como projeto final de conclusão do Bootcamp Data Science, recebemos o desafio Click Bus – Data Engineering onde necessitava modelar o Customer Experience que
+Como projeto final de conclusão do Bootcamp Data Science, recebemos o desafio Click Bus – Data Engineer onde necessitava modelar o Customer Experience que
 consiste na integração todos os dados dos seguintes datasets (Ura telefônica, Chat Online, Whatsapp e e-mail) para conseguir extrair as melhores informações referentes ao cliente.
 
 Como linguagem e ferramentas, optamos por utilizar:
