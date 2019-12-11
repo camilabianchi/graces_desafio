@@ -16,6 +16,8 @@ Como linguagem e ferramentas, optamos por utilizar:
 
 ### Solução Proposta
 
+* <a href="https://github.com/camilabianchi/graces_desafio/tree/master/1_modelagem">Scripts de criação das tabelas</a>
+
 Modelagem dos dados:
 
 <img src="https://github.com/camilabianchi/graces_desafio/blob/master/1_modelagem/modelagem.jpg?raw=true" title="Img" alt="Img">
@@ -24,7 +26,7 @@ Como proposta de solução para esse desafio criamos um fluxo no airflow que pro
 
 ## Segundo desafio
 
-Crie um script para efetuar extração, transformação e carregamento desses dados no banco de dados que você modelou acima (python)
+> Crie um script para efetuar extração, transformação e carregamento desses dados no banco de dados que você modelou acima (python)
 
 ### Solução Proposta
 
@@ -35,9 +37,9 @@ Criamos uma DAG no Airflow para cada dataset e com o modelo de Customer Experien
 
 ## Terceiro desafio
 
-A partir da sua modelagem, construa três queries para responder:
+> A partir da sua modelagem, construa três queries para responder:
 
-* A quantidade de contatos nas últimas 24h por cliente
+1. > A quantidade de contatos nas últimas 24h por cliente
 
 ### Solução Proposta
 
@@ -45,7 +47,7 @@ A partir da sua modelagem, construa três queries para responder:
 <img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_1.JPG?raw=true" title="Img" alt="Img">
 
 
-* Todas a interações de cada plataforma por cliente
+2. > Todas a interações de cada plataforma por cliente
 
 ### Solução Proposta
 
@@ -60,7 +62,7 @@ Quantitativo:
 <img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_2_qt.JPG" title="Img" alt="Img">
 
 
-* Última interação e qual plataforma por cliente
+3. > Última interação e qual plataforma por cliente
 
 
 ### Solução Proposta
@@ -72,7 +74,7 @@ Quantitativo:
 
 ## Quarto desafio
 
-Caso tenha conhecimento em AWS/GCP(Google Cloud Platform), quais serviços você utilizaria para garantir a performance da sua arquitetura de dados.
+> Caso tenha conhecimento em AWS/GCP(Google Cloud Platform), quais serviços você utilizaria para garantir a performance da sua arquitetura de dados.
 
 ### Solução Proposta
 
