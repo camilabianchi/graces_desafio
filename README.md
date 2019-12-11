@@ -83,7 +83,7 @@ Quantitativo:
 
 ## Integrantes do grupo
 
-* Angelina Inacio - <a href="https://www.linkedin.com/in/angelinainacio/">@angelinainacio</a>
-* Camila Bianchi - <a href="https://www.linkedin.com/in/camilabianchi/">@camilabianchi</a>
-* Camila Lima - <a href="https://www.linkedin.com/in/camilamlima/">@camilamlima</a>
-* Sara Santana - <a href="https://www.linkedin.com/in/sara-ss/">@sara-ss</a>
+* Angelina Inacio - <a href="https://www.linkedin.com/in/angelinainacio/" target="_blank">@angelinainacio</a>
+* Camila Bianchi - <a href="https://www.linkedin.com/in/camilabianchi/" target="_blank">@camilabianchi</a>
+* Camila Lima - <a href="https://www.linkedin.com/in/camilamlima/" target="_blank">@camilamlima</a>
+* Sara Santana - <a href="https://www.linkedin.com/in/sara-ss/" target="_blank">@sara-ss</a>
