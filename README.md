@@ -1,8 +1,8 @@
 # Bootcamp WomakersCode
 ### Desafio Data Engineer - ClickBus
 
-Como projeto final de conclusão do Bootcamp Data Science, recebemos o desafio Click Bus – Data Engineer onde necessitava modelar o Customer Experience que
-consiste na integração todos os dados dos seguintes datasets (Ura telefônica, Chat Online, Whatsapp e e-mail) para conseguir extrair as melhores informações referentes ao cliente.
+Como projeto final de conclusão do Bootcamp Data Science, recebemos o desafio Click Bus – Data Engineer onde necessitava modelar o Customer Experience, que
+consiste na integração de todos os dados dos seguintes datasets (Ura telefônica, Chat Online, Whatsapp e e-mail) para conseguir extrair as melhores informações referentes ao cliente.
 
 Como linguagem e ferramentas, optamos por utilizar:
 
@@ -12,7 +12,7 @@ Como linguagem e ferramentas, optamos por utilizar:
 
 ## Primeiro desafio
 
-Construa uma modelagem de dados para consulta, integrando todos datasets, visando a melhor forma de padronizá-los. Crie um script de criação do schema e das tabelas que serão utilizadas para o contexto descrito anteriormente. Informando como e com quais tecnologias você efetuaria a integração desses dados.
+> Construa uma modelagem de dados para consulta, integrando todos datasets, visando a melhor forma de padronizá-los. Crie um script de criação do schema e das tabelas que serão utilizadas para o contexto descrito anteriormente. Informando como e com quais tecnologias você efetuaria a integração desses dados.
 
 ### Solução Proposta
 
