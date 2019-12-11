@@ -43,6 +43,7 @@ Criamos uma DAG no Airflow para cada dataset e com o modelo de Customer Experien
 
 ### Solução Proposta
 
+* <a href="https://github.com/camilabianchi/graces_desafio/tree/master/3_queries">Queries construídas no MySQL</a>
 
 <img src="https://github.com/camilabianchi/graces_desafio/blob/master/3_queries/questao3_1.JPG?raw=true" title="Img" alt="Img" style="max-width:80%;">
 
